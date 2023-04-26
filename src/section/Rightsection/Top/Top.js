@@ -25,7 +25,7 @@ function Top() {
         <p className={style.heading}>Dashboard</p>
         <div className={style.rightside}>
           <input placeholder="Search..." />
-          <span className={style.searchicon}><CiSearch/></span>
+          <button className={style.searchicon}><CiSearch/></button>
           <img src={bell} className={style.img}/>
           <img src={User} className={style.img} />
         </div>

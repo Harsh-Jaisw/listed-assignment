@@ -39,7 +39,12 @@
 
 .searchicon {
   position: absolute;
-  right: 5.6rem;
+  right: 5.1rem;
+  background-color: #ffffff;
+  
+  border: none;
+  outline: none;
+  cursor: pointer;
 }
 .cards {
   display: flex;
@@ -80,7 +85,7 @@ line-height: 17px;
     position: relative;
     /* top:1rem; */
     left: 10.6rem;
-    width:1.65rem;
+    width:26.4px;
     margin:0;
     padding:0
 }
