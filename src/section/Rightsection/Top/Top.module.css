@@ -20,6 +20,7 @@
   gap: 1rem;
   flex: 1;
   align-items: center;
+  position: relative;
   /* text-align: justify; */
 }
 .rightside input {
@@ -29,6 +30,7 @@
   border: none;
   outline: none;
   padding-left: 1rem;
+
 }
 .mainPara{
    position: relative;
@@ -37,7 +39,7 @@
 
 .searchicon {
   position: absolute;
-  right: 15rem;
+  right: 5.6rem;
 }
 .cards {
   display: flex;

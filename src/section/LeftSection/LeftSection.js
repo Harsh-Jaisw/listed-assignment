@@ -20,18 +20,21 @@ function LeftSection() {
       <div className={style.content}>
         {leftArr.map((user) => {
           return (
-            <>
-              <div className={style.icons}>
+           
+              <div key={user.navName} className={style.icons}>
                 {user.navIcon}
                 {user.navName}
               </div>
-            </>
+         
           );
         })}
       </div>
       <div className={style.contact}>
         {leftHelp.map((item) => {
-          return <div>{item}</div>
+          return (
+          <div key={item}>
+            <span>{item}</span></div>
+          )
         })}
       </div>
     </div>

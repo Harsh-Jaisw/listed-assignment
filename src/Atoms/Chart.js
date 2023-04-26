@@ -16,7 +16,7 @@ export function PieChart() {
       data={data}
       
       width={"100%"}
-      height={"200px"}
+      height={"180px"}
     />
   );
 }
