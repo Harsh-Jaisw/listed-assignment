@@ -16,7 +16,7 @@ function Middle() {
           {" "}
           <p className={style.para}>Activities </p>
           <p className={style.seeAll}>
-            May - June 2021 <img src={downarrow} />
+            May - June 2021 <img src={downarrow} alt=""/>
           </p>
         </div>
         <div

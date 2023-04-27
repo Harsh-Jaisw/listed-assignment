@@ -26,8 +26,8 @@ function Top() {
         <div className={style.rightside}>
           <input placeholder="Search..." />
           <button className={style.searchicon}><CiSearch/></button>
-          <img src={bell} className={style.img}/>
-          <img src={User} className={style.img} />
+          <img src={bell} className={style.img} alt=""/>
+          <img src={User} className={style.img} alt=""/>
         </div>
       </div>
       <div className={style.cards}>
@@ -40,7 +40,7 @@ function Top() {
                 background: item.color,
               }}
             >
-              <img src={item.src}/>
+              <img src={item.src} alt=""/>
               <div className={style.mainPara}>
               <p className={style.para}>{item.Total}</p>
               <p className={style.paraSize}>{item.size}</p>

@@ -32,7 +32,7 @@ function Bottom() {
           {" "}
           <p className={style.para}>Top Products </p>
           <p className={style.seeAll}>
-            May - June 2021 <img src={downarrow} />
+            May - June 2021 <img src={downarrow} alt="" />
           </p>
         </div>
         <div className={style.charts}>
@@ -66,7 +66,7 @@ function Bottom() {
           {" "}
           <p className={style.para}>Today’s schedule </p>
           <p className={style.seeAll}>
-            See All <img src={arrow} />
+            See All <img src={arrow} alt=""/>
           </p>
         </div>
         <div className={style.datas}>
