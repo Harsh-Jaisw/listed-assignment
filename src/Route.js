@@ -6,8 +6,8 @@ function Routing() {
   return (
     // <div >
      <Routes>
-      <Route element={<Dashboard/>} path="/"/>
-      <Route element={<Signin/>} path="/login"/>
+      <Route element={<Dashboard/>} path="/home"/>
+      <Route element={<Signin/>} path="/"/>
      </Routes>
     // </div>
   );

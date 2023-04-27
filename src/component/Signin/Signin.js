@@ -12,7 +12,7 @@ function Signin() {
     auth.onAuthStateChanged(async (users)=>{
       console.log(users,'hello');
       setUser(users)
-      navigate('/')
+      navigate('/home')
     })
   },[])
   function handleSubmit(e) {
