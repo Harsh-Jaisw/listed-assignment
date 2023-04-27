@@ -8,13 +8,16 @@ import { useNavigate } from "react-router-dom";
 function Signin() {
   const[user,setUser]=useState(null)
   const navigate=useNavigate()
-  useEffect(()=>{
-    auth.onAuthStateChanged(async (users)=>{
-      console.log(users,'hello');
-      setUser(users)
-      navigate('/home')
-    })
-  },[])
+  // useEffect(()=>{
+  //   auth.onAuthStateChanged(async (users)=>{
+  //     console.log(users,'hello');
+  //     setUser(users)
+  //     navigate('/home')
+  //   })
+  // },[])
+  function handledashboard(){
+    navigate("/home")
+  }
   function handleSubmit(e) {
     e.preventDefault();
   }
@@ -28,7 +31,7 @@ function Signin() {
           <p>Sign in to your account</p>
         </div>
         <div className={style.btn}>
-          <button onClick={signInWithGoogle}>
+          <button onClick={handledashboard}>
             <span style={{ fontSize: "18px" }}>
               <FcGoogle />
             </span>
