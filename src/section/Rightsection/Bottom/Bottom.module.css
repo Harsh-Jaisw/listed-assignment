@@ -101,8 +101,8 @@ font-weight: 400;
 font-size: 12px;
 /* line-height: 14px; */
 color: #858585;
-display: flex;
-gap:2rem;
+margin-left:.3rem
+
 }
 .details{
     display: flex;
